@@ -1,0 +1,10 @@
+1:You can find account emails in devs-data/data/users.json
+2:emails are different for all the users but passwords are same which is "test1234" || "newpassword" mostly "test1234"
+3:IMPORTANT: to use password reset functionality make sure that you registrer on mailtrap.io and change these variables in config according to your account needs:
+
+EMAIL_USERNAME=yourmailTrapusername
+EMAIL_PASSWORD=yourmailTrapPassword
+EMAIL_HOST=yourmailTrapHost
+EMAIL_PORT=yourmailTrapPort
+
+and make sure you do change them in config.env file not here
